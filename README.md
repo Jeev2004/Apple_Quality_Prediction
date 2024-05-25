@@ -33,8 +33,44 @@
 </h3>
 <p>1. While running, the bounding boxes in the library of LabelImg was in float type and is required to be an integer.</p>
 <p>2. Typecasting of float into int needs to be done using int(x). Where x is the information that needs to be Typecasted.</p>
-<p>3. Open the path <b>“C:\Users\JEEVIKA\newenv\Lib\site-ackages\labelImg\labelImg.py”</b>
-<p>3. Open the path <b>“C:\Users\UserName\myenv\Lib\site-packages\libs\canvas.py” </b>, it is the path of the C-drive where virtual environment is created</p>
+<p>3. Open the path <b>“C:\Users\JEEVIKA\myenv\Lib\site-ackages\labelImg\labelImg.py”</b> ,it is the path of the C-drive where virtual environment is created</p>
+<p>4. Typecast line 965 to int()</p>
+<p>5. Open the path <b>“C:\Users\UserName\myenv\Lib\site-packages\libs\canvas.py” </b></p>
+<p>6. Typecast lines 526, 530 and 531 to int()</p>
+<p>7. Run command <b>'labelImg'</b></b></p>
+
+<h3>
+  Annotation and Labeling
+</h3>
+<p>1. Open Labelimg</p>
+<p>2. Select <b>'Open Dir'</b> and select the folder in which the dataset exists</p>
+<p>3. Create a folder to save annotations</p>
+<p>4. To save labeled annotations, select <b>'Change Save Dir'</b> and select the folder in which labels need to saved</p>
+<p>5. When the folder opens make sure that <b>'yolo'</b> is selected as saving format (It provides labels as .txt format which can further be used for training the model)</p>
+<p>6. To make sure the labels are in the required order, pick an image that has all the classes existing in that image and label them in order</p>
+<p>7. Once all labels are annotated for the first time, other images can be labeled with pre-existing labels by selecting the labels accordingly during annotation</p>
+<p>8. Continue the same procedure for all images. One or more labels can be added in the same image.</p>
+<p><b>Note : Go to your annotations file and check if the labels are in .txt format</b></p></br>
+
+<h3>
+  File Tree
+</h3>
+<p>--> Yolo requires three set of data, Train, Test and Validation</p>
+<p>--> The images and labels need to be ordered in such a format only</p>
+<p>The file tree is as follows :</p>
+<p>Folder_name</p>
+<p>|__ dataset</p>
+<p>    |__ train</p>
+<p>        |__ images</p>
+<p>        |__ label</p>
+<p>    |__ test</p>
+<p>        |__ images</p>
+<p>        |__ label</p>
+<p>    |__ valid</p>
+<p>        |__ images</p>
+<p>        |__ label</p>
+<p>    |__ data.yaml</p></br>
+
 
 
 
