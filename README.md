@@ -25,7 +25,7 @@
 <p>2. Then run the command <b>‘pip install setuptools’</b></p>
 <p>3. Then run the command <b>‘LabelImg’</b></p>
 <p>4. If labelimg throws an error, 'package disutils not founf' while running, run <b>'pip install disutils'</b></p>
-<p>5. Labelimg has been installed successfully, it can be accessed by running the command ‘labelImg’</p>'
+<p>5. Labelimg has been installed successfully, it can be accessed by running the command ‘labelImg’</p>
 <p><b>NOTE : </b>Make sure to activate virtual environment before running Labelimg</p></br>
 
 
