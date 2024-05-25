@@ -19,7 +19,7 @@
 <p><b>NOTE : </b>Make sure to activate virtual environment before installing any packages (step 4)</p></br>
 
 <h3>
-  LABELIMG INSTALLATION
+  LabelImg Installation
 </h3>
 <p>1. Once the virtual environment has been activated, run the command <b>‘pip install labelImg’</b> to install Labelimg (Note : The cases need to be same as mentioned).</p>
 <p>2. Then run the command <b>‘pip install setuptools’</b></p>
@@ -27,6 +27,16 @@
 <p>4. If labelimg throws an error, 'package disutils not founf' while running, run <b>'pip install disutils'</b></p>
 <p>5. Labelimg has been installed successfully, it can be accessed by running the command ‘labelImg’</p>
 <p><b>NOTE : </b>Make sure to activate virtual environment before running Labelimg</p></br>
+
+<h3>
+  LabelImg Setup
+</h3>
+<p>1. While running, the bounding boxes in the library of LabelImg was in float type and is required to be an integer.</p>
+<p>2. Typecasting of float into int needs to be done using int(x). Where x is the information that needs to be Typecasted.</p>
+<p>3. Open the path <b>“C:\Users\JEEVIKA\newenv\Lib\site-ackages\labelImg\labelImg.py”</b>
+<p>3. Open the path <b>“C:\Users\UserName\myenv\Lib\site-packages\libs\canvas.py” </b>, it is the path of the C-drive where virtual environment is created</p>
+
+
 
 
 
