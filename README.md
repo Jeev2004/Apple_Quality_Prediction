@@ -59,17 +59,19 @@
 <p>--> The images and labels need to be ordered in such a format only</p>
 <p>The file tree is as follows :</p>
 <pre>Folder_name
-   |__ dataset
-       |__ train
-           |__ images
-           |__ label
-       |__ test
-           |__ images
-           |__ label
-       |__ valid
-           |__ images
-           |__ label
-       |__ data.yaml</pre>
+|__ dataset
+    |__ train
+        |__ images
+        |__ label
+    |__ test
+        |__ images
+        |__ label
+    |__ valid
+        |__ images
+        |__ label
+    |__ data.yaml</pre>
+  </br>
+  <p><b>Note :</b> 10 – 20 % of total data goes for validation</p>
 
 
 
