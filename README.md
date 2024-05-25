@@ -58,7 +58,7 @@
 <p>--> Yolo requires three set of data, Train, Test and Validation</p>
 <p>--> The images and labels need to be ordered in such a format only</p>
 <p>The file tree is as follows :</p>
-<p>Folder_name
+<pre>Folder_name
    |__ dataset
        |__ train
            |__ images
@@ -69,7 +69,7 @@
        |__ valid
            |__ images
            |__ label
-       |__ data.yaml</p>
+       |__ data.yaml</pre>
 
 
 
